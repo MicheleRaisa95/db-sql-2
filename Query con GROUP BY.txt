@@ -43,9 +43,9 @@ ORDER BY
     Contare quanti corsi di laurea ci sono per ogni dipartimento
 
 SELECT
-    d.department_id,
-    COUNT(d.id)
+    department_id,
+    COUNT(id)
 FROM
-    DEGREES d
+    DEGREES 
 GROUP BY
-    d.department_id;
+    department_id;
